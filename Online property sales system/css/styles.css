@@ -1,0 +1,122 @@
+ul.a {
+	list-style-type: none;
+    position:absolute;  
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: -8px;
+    padding-top: 20px;
+    padding-right: 10px;
+  	overflow: hidden;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+    box-shadow:10px 10px 20px #aaaaaa ;
+}
+
+
+li.b{
+		float: right;	
+}
+
+a.c{
+	padding: 8px;
+}
+
+li.b a.c{
+
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+li.b a.c:hover {
+	background-color: #f86815;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.menu{
+    display: block;
+
+}
+
+
+.search-bar {
+    margin: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+
+.search-bar input[type="text"] {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14pt;
+    
+}
+
+.search-bar button {
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #29d838;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.search-bar button:hover{
+    background-color: #068d33;
+}
+.account:hover{
+    background-color: #1926da;
+}
+.postads:hover{
+    background-color: #c55e0a;
+}
+
+.logo{
+    float: left;
+    margin: 5px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.postads {
+    float: right;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #ee8e10;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.account {
+    float: right;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #1070ee;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 10px;
+}
